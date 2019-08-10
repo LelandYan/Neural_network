@@ -78,7 +78,7 @@ def load_data(file_name,is_train):
     if is_train:
         return x,y
     return x,data["PassengerId"]
-    
+
 
     return None,None
 
